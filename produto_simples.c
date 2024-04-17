@@ -1,15 +1,16 @@
 #include <stdio.h>
 
 int main (){
-    
-    int A = 0, B = 0, soma = 0;
+ 
+    int A = 0, B = 0, PROD = 0;
 
     scanf("%d\n", &A);
     scanf("%d", &B);
 
-    soma = A + B;
+    PROD = A * B;
 
-    printf("SOMA = %d\n", soma);
+    printf("PROD = %d\n", PROD);
 
     return 0;
+
 }
